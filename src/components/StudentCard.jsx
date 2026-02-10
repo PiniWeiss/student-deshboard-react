@@ -1,4 +1,5 @@
 import React from 'react'
+import './StudentCard.css'
 
 
 function StudentCard({student}) {
@@ -13,9 +14,10 @@ function StudentCard({student}) {
         </div>
         <hr />
         <div className='main-content'>
-           <div className='grade-area'> <h2>Age: {student.grade}%</h2> <code> {student.grade>=60 ? "PASS": "FAIL"}</code> </div>
+           <div className='Age-area'> <h2>Age: {student.age}</h2></div>
+           <div className='grade-area'> <h2>Grade: {student.grade}%</h2> <code> {student.grade>=60 ? "PASS": "FAIL"}</code> </div>
         </div>
-        hr
+        <hr />
         <h2>{student.grade>=90 ? "★ Honor Roll": ""}</h2>
       <div className='bottom-content'>
         <p>Subjects:</p>

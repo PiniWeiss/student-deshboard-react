@@ -1,4 +1,22 @@
 .student-card {
     max-width: 400px;
     background-color: #fff;
+    padding: 1rem;
+    border-radius: 20px;
+    margin: 2rem;
+}
+
+.top-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content {
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.grade-area {
+    display: flex;
 }
