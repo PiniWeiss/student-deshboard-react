@@ -1,0 +1,8 @@
+.subject-area p{
+    background-color: #eef2ff;
+    width: fit-content;
+    margin: 2px;
+    border-radius: 6px;
+    color: #4338ca;
+    padding: 4px;
+}

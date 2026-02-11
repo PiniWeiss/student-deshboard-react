@@ -17,6 +17,24 @@
     align-items: start;
 }
 
+.bottom-content {
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.all-subjects {
+    display: flex;
+}
+
 .grade-area {
     display: flex;
+    width: 100%;
+    gap: 5px;
+}
+
+.top-card .online-btn {
+    border-radius: 5px;
+    padding :  0 2px;
+    font-size: 1rem;
 }

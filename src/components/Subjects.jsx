@@ -1,4 +1,4 @@
-
+import './Subjects.css'
 
 function Subjects({subject}) {
   return (

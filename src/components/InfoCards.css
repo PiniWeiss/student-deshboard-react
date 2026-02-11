@@ -21,7 +21,7 @@
 .info-card p {
   color: #6b7280;
 }
-
+.info-card:active,
 .info-card:focus{
   background-color: #342dac;
   color: #fff;
